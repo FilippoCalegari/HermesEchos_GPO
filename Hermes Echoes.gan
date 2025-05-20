@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2025-06-09" view-index="0" gantt-divider-location="438" resource-divider-location="300" version="3.3.3316" locale="it_IT">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd15" name="Note" width="20" order="-1"/>
+        <field id="tpd3" name="Nome" width="264" order="0"/>
+        <field id="tpd4" name="Data d'inizio" width="83" order="1"/>
+        <field id="tpd5" name="Data di fine" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nome" width="210" order="0"/>
+        <field id="1" name="Ruolo predefinito" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" uid="7ff169847630417b821db5dd4ab3e26f" name="Analisi e Pianificazione" color="#8cb6ce" meeting="false" start="2025-06-02" duration="20" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+            <task id="2" uid="618bd2ea59684f7ba7b7104970b9af4e" name="Analisi dei requisiti" color="#8cb6ce" meeting="false" start="2025-06-02" duration="5" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="3" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="3" uid="e02e03bb5ed140dd9b8c519100077e27" name="Definizione user stories" color="#8cb6ce" meeting="false" start="2025-06-09" duration="5" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="4" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="4" uid="f328675d139b4fbb9a7ba7be1846954f" name="Pianificazione progetto" color="#8cb6ce" meeting="false" start="2025-06-16" duration="5" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="5" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="5" uid="9eff207868db4688b77454eaba90e124" name="Analisi tecnologica e scelta stack" color="#8cb6ce" meeting="false" start="2025-06-23" duration="5" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="6" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="6" uid="56658d7c0d774ecd8c2de1dbd4099bd5" name="Design" color="#00cc33" meeting="false" start="2025-06-30" duration="25" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+            <task id="7" uid="7879cc55198641fd825f19ea564ea1a4" name="Wireframing" color="#00cc33" meeting="false" start="2025-06-30" duration="10" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="8" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="8" uid="797531f8cdfd4c6fa54efaae95bda697" name="Mockup UI/UX" color="#00cc33" meeting="false" start="2025-07-14" duration="8" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="9" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="9" uid="a4d08f7e81ac42919cf596d30a44abce" name="Prototipo interattivo" color="#00cc33" meeting="false" start="2025-07-24" duration="7" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="11" type="2" difference="0" hardness="Strong"/>
+                <depend id="15" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="10" uid="347df449f82e4232bd56c464180a8fa2" name="Design del database" color="#00cc33" meeting="false" start="2025-06-30" duration="8" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="11" uid="89a7399f452b4f369317431be94fa1d3" name="Sviluppo Frontend" color="#ff9900" meeting="false" start="2025-08-04" duration="40" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+            <task id="15" uid="de0dba54ff3a4becb0305e79db658d6a" name="Implementazione UI" color="#ff9900" meeting="false" start="2025-08-04" duration="15" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="16" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="16" uid="921afdf6221146fc8cfc497118578656" name="Implementazione logica frontend" color="#ff9900" meeting="false" start="2025-08-25" duration="15" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="17" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="17" uid="c560a4cd69144cbbbf9f57d6d9528635" name="Player audio personalizzato" color="#ff9900" meeting="false" start="2025-09-15" duration="10" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="23" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="12" uid="6a1c11aa4a904c8cb89849b14d23cba5" name="Sviluppo Backend" color="#ff0000" meeting="false" start="2025-07-10" duration="50" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+            <task id="18" uid="1b5e0d2845b94ba28632579b07e263b0" name="Configurazione server e ambiente" color="#ff0000" meeting="false" start="2025-07-10" duration="5" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="19" uid="0d19c5427c6c42e8b54ee8a760f04261" name="Creazione database" color="#ff0000" meeting="false" start="2025-07-17" duration="5" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="20" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="20" uid="d5634f6e93ec4a4ab8e4c36d9324ef35" name="API per gestione utenti" color="#ff0000" meeting="false" start="2025-07-24" duration="10" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="21" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="21" uid="8f91c7bc7c4c4d649e034543a6f9f80a" name="API per upload e streaming audio" color="#ff0000" meeting="false" start="2025-08-07" duration="15" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="22" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="22" uid="c59e10d6f96e44e391d87db37c2e2ce2" name="API per funzionalità social" color="#ff0000" meeting="false" start="2025-08-28" duration="15" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="23" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="23" uid="791fa1fa11694246862752a3df51136a" name="Integrazione e Test" color="#cc00cc" meeting="false" start="2025-09-29" duration="30" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+            <task id="24" uid="351fb2d61d014bd5bbf2465d1ca445d0" name="Integrazione frontend-backend" color="#cc00cc" meeting="false" start="2025-09-29" duration="10" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="25" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="25" uid="3066585d762e4bcfad6acaea383dfcd6" name="Testing funzionalità utente" color="#cc00cc" meeting="false" start="2025-10-13" duration="8" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="26" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="26" uid="5d451cba0bb54d04bee175142cb6d0fa" name="Testing funzionalità audio" color="#cc00cc" meeting="false" start="2025-10-23" duration="7" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="27" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="27" uid="6d735e843377416da66ba8f022371ca0" name="Testing funzionalità social" color="#cc00cc" meeting="false" start="2025-11-03" duration="5" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="29" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="28" uid="30cdc032f8aa4fa48808f5023509b0d1" name="Deploy e Lancio" color="#0000ff" meeting="false" start="2025-11-10" duration="25" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+            <task id="29" uid="b9cd5e78348c4dc393269410bcbb5860" name="Setup ambiente di produzione" color="#0000ff" meeting="false" start="2025-11-10" duration="5" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="30" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="30" uid="40985305aefe41a1bad46ad155af6f69" name="Deployment" color="#0000ff" meeting="false" start="2025-11-17" duration="3" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="31" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="31" uid="8d9cffa5278d4196bb77ea7da49b2f39" name="Beta testing" color="#0000ff" meeting="false" start="2025-11-20" duration="10" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="32" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="32" uid="9fa83353f92c4b7b903cda380f01b5a0" name="Creazione contenuti iniziali" color="#0000ff" meeting="false" start="2025-12-04" duration="5" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="33" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="33" uid="c93a97342a8b47b48a45db42d73dc30d" name="Lancio ufficiale" color="#0000ff" meeting="false" start="2025-12-11" duration="2" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="34" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="34" uid="82b85c3bc93a436da7a688e8c9bf4c7a" name="Post-Lancio" color="#666666" meeting="false" start="2025-12-15" duration="25" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+            <task id="35" uid="59a51747f708426fbf190e3e0c62f30c" name="Monitoraggio prestazioni" color="#666666" meeting="false" start="2025-12-15" duration="15" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true"/>
+            <task id="36" uid="96c2c07c976e484ca5dd52668538ec53" name="Raccolta feedback utenti" color="#666666" meeting="false" start="2025-12-15" duration="15" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="37" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="37" uid="28e657f816284874901d02826156fd59" name="Implementazione bugfix" color="#666666" meeting="false" start="2026-01-05" duration="10" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true"/>
+            <task id="38" uid="06b5c09055e3497c88de77494bf753bc" name="Campagna marketing" color="#666666" meeting="false" start="2025-12-15" duration="25" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="39" uid="27dcd40b7f3a488ca9d16b6018cf85ca" name="Completamento Analisi" color="#8cb6ce" meeting="true" start="2025-06-23" duration="0" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true"/>
+        <task id="40" uid="370c5d6b651a4882a456cc477ce420d4" name="Completamento Design" color="#8cb6ce" meeting="true" start="2025-07-16" duration="0" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true"/>
+        <task id="41" uid="282532c6774540d7a75cb5fd82a4d887" name="Completamento Sviluppo" color="#8cb6ce" meeting="true" start="2025-08-25" duration="0" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true"/>
+        <task id="42" uid="6a606d97175a40ceb3e92fe689c55955" name="Completamento Test" color="#8cb6ce" meeting="true" start="2025-09-24" duration="0" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true"/>
+        <task id="43" uid="2656fd22287844cdab39ca24a2c3f088" name="Go-Live" color="#8cb6ce" meeting="true" start="2025-10-20" duration="0" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true"/>
+        <task id="44" uid="2c1ffe4238d14a5991b6f19deb616e0d" name="Completamento Progetto" color="#8cb6ce" meeting="true" start="2025-11-13" duration="0" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Project Manager" function="Default:1" contacts="pm@musicconnect.com" phone="+39 123 456 7890"/>
+        <resource id="1" name="UX/UI Designer" function="Default:0" contacts="design@musicconnect.com" phone="+39 123 456 7891"/>
+        <resource id="2" name="Frontend Developer" function="Default:0" contacts="frontend@musicconnect.com" phone="+39 123 456 7892"/>
+        <resource id="3" name="Backend Developer" function="Default:0" contacts="backend@musicconnect.com" phone="+39 123 456 7893"/>
+        <resource id="4" name="Database Administrator" function="Default:0" contacts="dba@musicconnect.com" phone="+39 123 456 7894"/>
+        <resource id="5" name="Audio Engineer" function="Default:0" contacts="audio@musicconnect.com" phone="+39 123 456 7895"/>
+        <resource id="6" name="QA Tester" function="Default:0" contacts="qa@musicconnect.com" phone="+39 123 456 7896"/>
+        <resource id="7" name="DevOps Engineer" function="Default:0" contacts="devops@musicconnect.com" phone="+39 123 456 7897"/>
+        <resource id="8" name="Content Manager" function="Default:0" contacts="content@musicconnect.com" phone="+39 123 456 7898"/>
+        <resource id="9" name="Marketing Specialist" function="Default:0" contacts="marketing@musicconnect.com" phone="+39 123 456 7899"/>
+    </resources>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
